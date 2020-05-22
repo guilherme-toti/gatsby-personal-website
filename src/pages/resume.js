@@ -7,7 +7,7 @@ import { Global, css, jsx } from '@emotion/core'
 
 import { ColorsAdvanced } from '../styles/main'
 
-import CoverImg from '../../static/images/cover.png'
+import CoverImg from '../../static/images/resume-cover.png'
 
 import * as variables from '../styles/variables.json'
 
