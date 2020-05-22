@@ -2,31 +2,31 @@
   {
     "icon": "dev",
     "service": "DEV Community",
-    "url": "https://dev.to/ctrleffive"
+    "url": "https://dev.to/guilhermetoti"
   },
   {
     "icon": "github",
     "service": "GitHub",
-    "url": "https://github.com/ctrleffive"
+    "url": "https://github.com/guilherme-toti"
   },
   {
     "icon": "telegram",
     "service": "Telegram",
-    "url": "https://t.me/ctrleffive"
+    "url": "https://t.me/guilhermetoti"
   },
   {
     "icon": "instagram",
     "service": "Instagram",
-    "url": "https://instagram.com/ctrleffive"
+    "url": "https://instagram.com/guilherme.toti"
   },
   {
     "icon": "linkedin",
     "service": "LinkedIn",
-    "url": "https://linkedin.com/in/ctrleffive"
+    "url": "https://linkedin.com/in/guilhermetoti"
   },
   {
     "icon": "twitter",
     "service": "Twitter",
-    "url": "https://twitter.com/ctrleffive"
+    "url": "https://twitter.com/guilherme_toti"
   }
 ]

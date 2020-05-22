@@ -14,7 +14,7 @@ export default class UsesPage extends Component {
     return (
       <Wrap
         pageBg={<PageBg />}
-        title="Uses - Chandu J S"
+        title="Uses"
         description="Stuff I use in a daily basis.">
         <div
           css={css`
@@ -74,14 +74,16 @@ export default class UsesPage extends Component {
             render={({ site }) => (
               <div className="row">
                 {site.siteMetadata.uses.map((section) => (
-                  <div className="col-lg-4 col-md-6 mb-4 mt-1">
+                  <div
+                    key={section.title}
+                    className="col-lg-4 col-md-6 mb-4 mt-1">
                     <div className="h3 mb-2">{section.title}</div>
                     <p className={section.description ? `mb-4` : `pb-0`}>
                       {section.description}
                     </p>
                     <ul className="no-bullets">
                       {section.items.map((item) => (
-                        <li>
+                        <li key={item.name}>
                           {item.emoji ? (
                             <span
                               role="img"

@@ -34,18 +34,17 @@ export default class WorkPage extends Component {
         `}
         render={({ allMarkdownRemark }) => {
           const workItems = allMarkdownRemark.edges
-            .map((item) => {
-              const data = item.node.frontmatter
-              data.slug = item.node.fields.slug
-              return data
-            })
-            .sort((a, b) => b.sort - a.sort)
+            .map((item) => ({
+              ...item.node.frontmatter,
+              slug: item.node.fields.slug,
+            }))
+            .sort((a, b) => a.sort - b.sort)
           return (
             <Wrap
               lightsOn
               isWorkPage
               pageBg={<PageBg />}
-              title="Work - Chandu J S"
+              title="Work"
               description="Here is the listing of some of my work.">
               <div className="content-wrap">
                 <div className="h1 font-weight-bold mb-3">
@@ -63,7 +62,7 @@ export default class WorkPage extends Component {
                   <span role="img" aria-label="ass">
                     🍑
                   </span>{' '}
-                  with my keyboard, I make photos.
+                  with my keyboard, I make video tutorials.
                 </div>
                 <div
                   className="row"
@@ -74,7 +73,7 @@ export default class WorkPage extends Component {
                     }
                   `}>
                   {workItems.map((item) => (
-                    <WorkThumbnail data={item} />
+                    <WorkThumbnail key={item.sort} data={item} />
                   ))}
                 </div>
               </div>

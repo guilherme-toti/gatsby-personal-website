@@ -3,11 +3,12 @@
 import { css, jsx } from '@emotion/core'
 import Wrap from '../layouts/wrap'
 import { Component } from 'react'
-import { StaticQuery, graphql } from 'gatsby'
+import { StaticQuery, graphql, Link } from 'gatsby'
 import { OutboundLink } from 'gatsby-plugin-google-analytics'
 import Img from 'gatsby-image/withIEPolyfill'
 
 import codeStyles from '../styles/code.js'
+import { ColorsAdvanced, Colors } from '../styles/main'
 
 import devIcon from '../../static/images/icons/dev.png'
 
@@ -57,6 +58,31 @@ export default class BlogSinglePage extends Component {
               cover={data.cover_image?.childImageSharp.fixed.src}
               description={data.description}>
               <div className="content-wrap">
+                <Link
+                  to="/blog"
+                  className="mb-4"
+                  css={css`
+                    display: inline-block;
+                    transition-duration: 0.2s;
+                    cursor: pointer;
+                    top: 0px;
+                    padding: 0.5rem 1.3rem;
+                    border-width: 0;
+                    border-style: solid;
+                    border-image: initial;
+                    border-radius: 2rem;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                    font-size: 0.8rem;
+                    background-color: ${Colors.brand};
+                    color: #fff;
+                    &:hover {
+                      background-color: ${Colors.accent};
+                      color: ${ColorsAdvanced.main};
+                    }
+                  `}>
+                  Back
+                </Link>
                 <div className="mb-5">
                   <div className="h1 font-weight-bold text-body">
                     {data.title}
@@ -66,7 +92,9 @@ export default class BlogSinglePage extends Component {
                   </div>
                   <div className="tags">
                     {data.tags.map((tag) => (
-                      <span className="badge badge-pill badge-brand mb-2 mr-2 py-1">
+                      <span
+                        key={tag}
+                        className="badge badge-pill badge-brand mb-2 mr-2 py-1">
                         #{tag}
                       </span>
                     ))}

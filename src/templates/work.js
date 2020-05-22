@@ -2,9 +2,9 @@
 
 import { css, jsx } from '@emotion/core'
 import Wrap from '../layouts/wrap'
-import { Colors } from '../styles/main'
+import { Colors, ColorsAdvanced } from '../styles/main'
 import { Component } from 'react'
-import { StaticQuery, graphql } from 'gatsby'
+import { StaticQuery, graphql, Link } from 'gatsby'
 import { OutboundLink } from 'gatsby-plugin-google-analytics'
 
 import PageBg from '../assets/images/bgs/work.svg'
@@ -84,9 +84,34 @@ export default class WorkSinglePage extends Component {
               isWorkPage
               pageBg={<PageBg />}
               cover={this.getCover(data.htmlAst)}
-              title={`${data.title} - Work - Chandu J S`}
+              title={`${data.title} - Work`}
               description={data.excerpt}>
               <div className="content-wrap">
+                <Link
+                  to="/work"
+                  className="mb-4"
+                  css={css`
+                    display: inline-block;
+                    transition-duration: 0.2s;
+                    cursor: pointer;
+                    top: 0px;
+                    padding: 0.5rem 1.3rem;
+                    border-width: 0;
+                    border-style: solid;
+                    border-image: initial;
+                    border-radius: 2rem;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                    font-size: 0.8rem;
+                    background-color: ${Colors.brand};
+                    color: #fff;
+                    &:hover {
+                      background-color: ${Colors.accent};
+                      color: ${ColorsAdvanced.main};
+                    }
+                  `}>
+                  Back
+                </Link>
                 <div className="mb-5">
                   <div className="h1 font-weight-bold text-body">
                     {this.splitTitle(data.title)}
@@ -100,7 +125,9 @@ export default class WorkSinglePage extends Component {
                   </div>
                   <div className="tags">
                     {data.tags.map((tag) => (
-                      <span className="badge badge-pill badge-brand mb-2 mr-2 ng-star-inserted py-1">
+                      <span
+                        key={tag}
+                        className="badge badge-pill badge-brand mb-2 mr-2 ng-star-inserted py-1">
                         #{tag}
                       </span>
                     ))}
@@ -121,7 +148,7 @@ export default class WorkSinglePage extends Component {
                         margin-right: -2rem !important;
                       }
                     }
-                    > p:first-child .gatsby-resp-image-wrapper {
+                    > p:first-of-type .gatsby-resp-image-wrapper {
                       margin-top: -3rem;
                       margin-bottom: 2rem;
                       width: 1000px;
@@ -172,7 +199,7 @@ export default class WorkSinglePage extends Component {
                         box-shadow: rgba(0, 0, 0, 0.3) 0 0 0 2px inset;
                       }
                     `}>
-                    GoTo Project
+                    Visit this Project
                   </OutboundLink>
                 ) : (
                   ''

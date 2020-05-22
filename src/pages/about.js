@@ -14,25 +14,32 @@ export default class AboutPage extends Component {
     return (
       <Wrap
         pageBg={<PageBg />}
-        title="About - Chandu J S"
-        description="I'm Chandu J S. I'm a full stack developer based in Trivandrum, India.">
+        title="About"
+        description="I am Guilherme Toti. A full stack developer based in São Paulo, Brazil.">
         <div className="content-wrap">
           <div className="h1 font-weight-bold mb-5">
             Hi.
             <br />
-            I'm <span className="high">Chandu J S</span>
+            I'm <span className="high">Guilherme Toti</span>
             <span className="blinker">.</span>
             <br />A <span className="high">full stack developer</span>
             <br /> based in
-            <span className="brand-light"> Trivandrum, India</span>.
+            <span className="brand-light"> São Paulo, Brazil </span>.
           </div>
           <div className="brand-light h3">
             Interested in
             <br />
-            working together?
+            relocating me abroad?{' '}
+            <span
+              css={css`
+                margin-left: 5px;
+              `}
+              role="img"
+              aria-label="eyes">
+              👀
+            </span>
             <br />
-            Feel free to contact me
-            <br /> for any project or collaboration.
+            Feel free to contact me!
           </div>
           <Link
             to="/resume"
@@ -90,7 +97,7 @@ export default class AboutPage extends Component {
                 `}
                 render={({ site }) =>
                   site.siteMetadata.skills.map((item, index) => (
-                    <span>
+                    <span key={item}>
                       <span className="high">{item}</span>
                       {index + 1 === site.siteMetadata.skills.length
                         ? ' ...'

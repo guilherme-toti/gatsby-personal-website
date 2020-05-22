@@ -49,7 +49,9 @@ export default class Wrap extends Component {
         render={({ site }) => {
           const { siteMetadata } = site
           const metaTags = {
-            title: this.props.title || siteMetadata.title,
+            title: this.props.title
+              ? `${this.props.title} | ${siteMetadata.title}`
+              : siteMetadata.title,
             description: this.props.description || ``,
           }
           let cover
@@ -325,6 +327,7 @@ export default class Wrap extends Component {
                   {siteMetadata.social.map((item) => {
                     return (
                       <OutboundLink
+                        key={item.url}
                         eventLabel={`Social Media (${item.service})`}
                         href={item.url}
                         target="_blank"

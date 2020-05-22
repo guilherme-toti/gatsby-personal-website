@@ -1,75 +1,169 @@
 [
   {
-    "company": null,
-    "position": "Software Engineer",
-    "location": "Trivandrum, Kerala, India",
-    "duration": "Aug 2013 – Present",
+    "company": "Sangoma Technologies",
+    "position": "Frontend Developer",
+    "location": "Remote",
+    "duration": "Jan 2019 – Present",
     "description": [
-      "I've been working as a freelancer since 2013",
-      "Technologies Worked With: NodeJS (Express), PHP (Codeigniter), MySQL, MongoDB, HTML5, CSS3, JavaScript (React, jQuery, AngularJS, Angular, Electron), Dart (Flutter), Java (Android), Swift (iOS)"
-    ],
-    "responsibilities": []
-  },
-  {
-    "company": "Dots Advertising",
-    "position": "Full Stack Developer",
-    "location": "Victoria, Seychelles",
-    "duration": "May 2019 – Mar 2020",
-    "description": [
-      "Technologies: NodeJS (Express), PHP (Codeigniter), MySQL, MongoDB, HTML5, CSS3, JavaScript (jQuery, Angular, Electron, React, Gatsby), Dart (Flutter)"
+      "Sangoma, is a leading voice and Unified Communications (UC) solution provider, award-winning cloud and on-premise UC PBX solutions. Also the primary developer and sponsor of the Asterisk project, the world’s most widely used open-source communications software, and FreePBX, the world’s most widely used open-source PBX software.",
+      "Technologies​ Used: React.JS, SIP.JS, Asterisk, React Native, Socket.IO, Electron, FreePBX"
     ],
     "responsibilities": [
-      "UI Designing & Development",
-      "Product Engineering",
-      "Back-End Development",
-      "Server Maintenance"
+      "Coded application improvements in an agile environment with one-week sprints",
+      "Developed a solution for text formatting support similar to Slack",
+      "Refactored the Dialpad container logic (the heart of the application)",
+      "Implemented transfer call functionality",
+      "Meet with the team in San Diego. March 29/2019 - April 06/2019"
     ]
   },
   {
-    "company": "Inometrics Technology Systems Pvt. Ltd.",
+    "company": "POSPulse",
     "position": "Full Stack Developer",
-    "location": "Technopark, Trivandrum",
-    "duration": "Dec 2017 – Apr 2019",
+    "location": "Remote",
+    "duration": "Aug 2017 – Jan 2019",
     "description": [
-      "Joined as a Full Stack Developer and involved myself with various phases of a project right from ideation, prototype, production to launch.",
-      "Key projects are in IOT, Home Automation, Embedded & Cloud based domains.",
-      "Technologies: NodeJS (Express), PHP (Codeigniter), MySQL, MongoDB, HTML5, CSS3, JavaScript (jQuery, AngularJS, Angular, Electron), Dart (Flutter), Java (Android)"
+      "POSpulse is the leading crowd-based shopper insights intelligence company in Europe, providing leading industry segments with more transparency and excellence to better market their products and services. Over 800,000 shoppers and consumers generate insights along the entire customer decision journey, providing real-time feedback on the shopping experience.",
+      "Technologies​ Used: React.JS, Ruby on Rails, Python"
     ],
     "responsibilities": [
-      "UI Designing & Development",
-      "Product Engineering",
-      "Back-End Development",
-      "Server Maintenance",
-      "Team Handling"
+      "Integrated POSPulse and Streetspotr platforms on its acquisition",
+      "Coded a new dashboard from scratch to support both companies data",
+      "Improved platform user experience",
+      "Coded improvements in older POSPulse dashboard and admin panel",
+      "Meet with the team in Berlin. December 02/2018 - December 17/2018"
     ]
   },
   {
-    "company": "Trueway Infotech",
-    "position": "Full Stack Developer",
-    "location": "Technopark, Trivandrum",
-    "duration": "Feb 2016 – Dec 2017",
+    "company": "Tellus App",
+    "position": "Backend Developer",
+    "location": "Remote",
+    "duration": "July 2017 – Aug 2018",
     "description": [
-      "Involved with the development of high scale multi disciplinary web applications for accounting, sales, inventory based projects. Clients were based out of the Middle East, Seychelles. Interacted with clients for project handling, ideation and execution.",
-      "Technologies Used: PHP (Codeigniter), MySQL, HTML5, CSS3, JavaScript (jQuery, AngularJS)"
+      "Tellus is a real estate platform transforming the rental experience into something efficient and modern. Tellus lets landlords collect rent, track expenses, list their property, screen tenants, handle work orders, sign leases, chat with tenants, find vendors, and more.",
+      "Technologies​ Used: Python, Node.JS, MongoDB, Aurora MySQL, Elasticsearch"
     ],
     "responsibilities": [
-      "UI/UX Designing & Development",
-      "Back-End Development",
-      "Server Maintenance"
+      "Developed the \"match and merge\" solution to unify the properties records crawled from multiple sources",
+      "Removed all properties duplicated content and media",
+      "Scaled properties records from 5k to 6M+"
     ]
   },
   {
-    "company": "Trueway FZE",
-    "position": "Web Developer",
-    "location": "Trivandrum, Kerala, India",
-    "duration": "Jun 2014 – Feb 2016",
+    "company": "Mercado Libre",
+    "position": "Frontend Developer",
+    "location": "Osasco, São Paulo, Brazil",
+    "duration": "Feb 2017 – Aug 2017",
     "description": [
-      "Started off my career as an enthusiastic Web Developer with PHP, HTML, JavaScript, CSS. Familiarised with frontend frameworks including Bootstrap, Foundation & backend frameworks like Codeigniter. Involved in the design and development of multi industry websites in the areas of Machinery, ERP, Film Making, Artists in the Middle East, UK & the US",
-      "Technologies Used: PHP (Codeigniter), MySQL, HTML5, CSS3, JavaScript"
+      "literally \"free market\" in Spanish, is an Argentine company incorporated in the United States that operates online marketplaces dedicated to e-commerce and online auctions, including mercadolibre.com. As of 2016, Mercado Libre had 174.2 million users in Latin America, making it the region's most popular e-commerce site by the number of visitors. The company has operations in Argentina, Bolivia, Brazil, Chile, Colombia, Costa Rica, Dominican Republic, Mexico, Ecuador, Guatemala, Honduras, Peru, Panama, Uruguay and Venezuela.",
+      "Technologies Used: React.JS, Node.JS"
     ],
     "responsibilities": [
-      "UI/UX Designing & Development",
-      "Back-End Development"
+      "Member of the Backoffice team",
+      "Developed the new ERP for small and medium sellers"
+    ]
+  },
+  {
+    "company": "Luizalabs",
+    "position": "Full Stack Developer",
+    "location": "São Paulo, Brazil",
+    "duration": "Sep 2015 – Feb 2017",
+    "description": [
+      "Use technology to deliver a differentiated customer experience. This is the goal of LuizaLabs, Magazine Luiza's Technology and Innovation lab.",
+      "Responsible for digitizing the Brazilian retail through autonomy and agile methodologies to innovate and delight the customer.",
+      "Technologies Used: Python, Django, Muffin, AsyncIO, Django Rest Framework, MySQL, MongoDB, Nginx, AWS, APIGEE, React.JS, Redux"
+    ],
+    "responsibilities": [
+      "Designed and coded the phone sales system",
+      "Found and fixed performance bottlenecks on Magazine Luiza e-commerce website to lower instance costs and increase conversion",
+      "Member of the first team to use React.JS in production for the payment checkout project with 1M+ daily access at Luizalabs",
+      "Implemented marketplace on Magazine Luiza e-commerce website",
+      "Designed and coded marketplace customer service",
+      "Coded the discount coupon API"
+    ]
+  },
+  {
+    "company": "Magazine Luiza",
+    "position": "Full Stack Developer",
+    "location": "São Paulo, Brazil",
+    "duration": "Aug 2014 – Sep 2015",
+    "description": [
+      "Magazine Luiza is a retail chain. It has over 1000 stores, is present in 16 states of the country and its business model today is characterized as a digital platform with physical points.",
+      "Its e-commerce operation won 12 times the Diamond trophy in the B2C Excellence in Electronic Commerce Quality Award. In 2017, the company had its best result ever, with a net income of R$ 389 million, an increase of 300% compared to the previous year.",
+      "This year (2019), its sales totaled R$ 14.4 billion.",
+      "Great Place to Work LATAM - 2016/2015.",
+      "Technologies Used: Cython (for performance), Pandas (for large scale data management), PHP, MySQL, MongoDB, Memcached, Pentaho, AWS"
+    ],
+    "responsibilities": [
+      "Designed and coded the new supply system to supply 20k+ products to 1000+ branches every day",
+      "Increased processing time of supply system software from 9 hours to 7 minutes"
+    ]
+  },
+  {
+    "company": "StartImob",
+    "position": "Full Stack Developer",
+    "location": "São Paulo, Brazil",
+    "duration": "May 2013 – July 2014",
+    "description": [
+      "StartImob was a startup that developed a Real Estate social network application to easily manage properties offers and enable direct contact with owner and buyer/tenant.",
+      "Technologies Used: PHP, MySQL, Nginx, Node, Socket.IO, jQuery"
+    ],
+    "responsibilities": [
+      "Coded the application being the lead of one more developer",
+      "Built a real-time chat system",
+      "Built all the build and deployment procedures"
+    ]
+  },
+  {
+    "company": "Microsistec",
+    "position": "Full Stack Developer",
+    "location": "Praia Grande, São Paulo, Brazil",
+    "duration": "Jan 2013 – May 2013",
+    "description": [
+      "Microsistec is a real estate system that helps real estate brokers manage real estate, service, announce and close deals.",
+      "Technologies Used: PHP, ZendPHP, Doctrine, MySQL, jQuery"
+    ],
+    "responsibilities": [
+      "Maintained the application fixing issues and implementing new functionalities"
+    ]
+  },
+  {
+    "company": "Triares",
+    "position": "Full Stack Developer",
+    "location": "Santos, São Paulo, Brazil",
+    "duration": "May 2012 – Jan 2013",
+    "description": [
+      "Web, design and strategic planning agency focused on multi-platform digital campaigns.",
+      "Technologies Used: PHP, CakePHP, MySQL, Axure, Photoshop, Fireworks, Illustrator"
+    ],
+    "responsibilities": [
+      "Coded websites and systems for clients",
+      "Drew websites wireframes",
+      "Designed websites layouts"
+    ]
+  },
+  {
+    "company": "Agência Lippy",
+    "position": "Full Stack Developer",
+    "location": "Praia Grande, São Paulo, Brazil",
+    "duration": "April 2008 – May 2012",
+    "description": [
+      "Marketing and web design agency.",
+      "Technologies Used: PHP, MySQL, jQuery"
+    ],
+    "responsibilities": ["Coded 40+ websites and web systems for clients"]
+  },
+  {
+    "company": "Freelancer",
+    "position": "Full Stack Developer",
+    "location": "Praia Grande, São Paulo, Brazil",
+    "duration": "Feb 2006 – Aug 2014",
+    "description": [
+      "Worked as freelancer developing since the wireframe to the code.",
+      "Technologies Used: PHP, CakePHP, Doctrine, Python, Django, MySQL, MongoDB, Nginx, AWS, Photoshop, Illustrator, Fireworks, Axure, Node, Socket.IO, jQuery"
+    ],
+    "responsibilities": [
+      "Designed and coded 80+ websites, e-commerces and systems for clients",
+      "Wrote a complete e-commerce platform in PHP from scratch"
     ]
   }
 ]

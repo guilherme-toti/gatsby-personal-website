@@ -1,7 +1,7 @@
 {
-  "name": "chandujs.dev",
-  "version": "2.5.0",
-  "description": "My Website ❤️",
+  "name": "guilhermetoti.com",
+  "version": "1.0.0",
+  "description": "My Website",
   "scripts": {
     "build": "gatsby build --prefix-paths",
     "develop": "gatsby develop",
@@ -46,9 +46,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ctrleffive/ctrleffive.github.io"
+    "url": "https://github.com/guilherme-toti/gatsby-personal-website"
   },
   "bugs": {
-    "url": "https://github.com/ctrleffive/ctrleffive.github.io/issues"
+    "url": "https://github.com/guilherme-toti/gatsby-personal-website/issues"
   }
 }

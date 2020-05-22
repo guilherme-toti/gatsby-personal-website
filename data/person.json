@@ -1,20 +1,20 @@
 {
   "name": {
-    "first": "Chandu",
-    "last": "J S"
+    "first": "Guilherme",
+    "last": "Toti"
   },
   "position": "Full Stack Developer",
-  "website": "chandujs.dev",
-  "location": "Trivandrum, Kerala, India",
-  "phone": "+91 9497851381",
-  "email": "app.coder@outlook.in",
+  "website": "guilhermetoti.com",
+  "location": "São Paulo, Brazil",
+  "phone": "+55 13981109488",
+  "email": "guilhermetoti@gmail.com",
   "proProfile": [
     "Being a software engineer, I enjoy translating business needs into robust and integrated technology solutions. I love working in fast-paced environments solving unique and challenging tech problems and developing innovative solutions. Tinkering with new technologies is my passion. With a track record of developing successful project implementations in multi-domains, I have been involved in technical designs, code development, application architecture, code review.",
-    "Be sure to check out my website chandujs.dev for some of the work I've done."
+    "Be sure to check out my website guilhermetoti.com for some of the work I've done."
   ],
   "languages": [
     {
-      "name": "Malayalam",
+      "name": "Portuguese",
       "proficiency": "Native"
     },
     {
@@ -22,11 +22,7 @@
       "proficiency": "Professional"
     },
     {
-      "name": "Tamil",
-      "proficiency": "Elementary"
-    },
-    {
-      "name": "Hindi",
+      "name": "Spanish",
       "proficiency": "Elementary"
     }
   ]

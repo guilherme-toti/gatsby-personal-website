@@ -112,7 +112,7 @@ export default class ResumePage extends Component {
           `}
         />
         <Helmet
-          defaultTitle={'Resume - Chandu J S'}
+          defaultTitle={'Resume - Guilherme Toti'}
           meta={[
             {
               name: 'robots',
@@ -156,23 +156,12 @@ export default class ResumePage extends Component {
                       last
                     }
                   }
-                  education {
-                    degree
-                    duration
-                    institute
-                  }
                 }
               }
             }
           `}
           render={({ site }) => {
-            const {
-              person,
-              social,
-              skills,
-              experience,
-              education,
-            } = site.siteMetadata
+            const { person, social, skills, experience } = site.siteMetadata
             return (
               <div
                 css={css`
@@ -249,12 +238,15 @@ export default class ResumePage extends Component {
                         </div>
                       </InfoSection>
                       <InfoSection title="Education">
-                        {education.map((item) => (
-                          <ListItem title={item.degree}>
-                            <div>{item.duration}</div>
-                            <div>{item.institute}</div>
-                          </ListItem>
-                        ))}
+                        <ListItem title="Self-Taught">
+                          <div>
+                            I joined Computer Science degree 4 times but I
+                            always had to pause it because of work.
+                            <br />
+                            So, everything I learnt was from courses, articles
+                            and practicing.
+                          </div>
+                        </ListItem>
                       </InfoSection>
                       <InfoSection title="Languages">
                         {person.languages.map((item) => (

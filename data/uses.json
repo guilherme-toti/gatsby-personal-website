@@ -31,7 +31,7 @@
         "emoji": "📸",
         "name": "Photographer",
         "description": "Checkout my instagram page 😊",
-        "link": "https://instagram.com/ctrleffive"
+        "link": "https://instagram.com/guilherme.toti"
       }
     ]
   },
@@ -41,27 +41,27 @@
     "items": [
       {
         "emoji": "💻",
-        "name": "Macbook Air 13\"",
-        "description": "I've used windows, linux & mac both professionally and for personal use. I was a Ubuntu user for a long time, but nothing beats the ease of use and developer friendliness of a mac.",
+        "name": "Macbook Pro 15\"",
+        "description": "I've tried windows & linux for professional use, but I always back to Mac. But I love Linux <3",
         "link": ""
       },
       {
         "emoji": "📷",
-        "name": "Sony α6400",
+        "name": "Canon 5D Mark IV",
         "description": "",
-        "link": "https://www.sony.com/electronics/interchangeable-lens-cameras/ilce-6400"
+        "link": ""
       },
       {
         "emoji": "📱",
-        "name": "iPhone SE",
+        "name": "iPhone 11 Pro Max",
         "description": "",
         "link": ""
       },
       {
         "emoji": "🎧",
-        "name": "AirPods",
+        "name": "AirPods Pro",
         "description": "",
-        "link": "https://www.apple.com/airpods-2nd-generation/"
+        "link": ""
       }
     ]
   },
@@ -77,21 +77,15 @@
       },
       {
         "emoji": "🎨",
-        "name": "Field Lights Theme",
+        "name": "One Dark Pro Theme",
         "description": "",
-        "link": "https://marketplace.visualstudio.com/items?itemName=sveggiani.vscode-field-lights"
-      },
-      {
-        "emoji": "🤫",
-        "name": "NO SEMICOLON IN JAVASCRIPT!",
-        "description": "",
-        "link": ""
+        "link": "https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme"
       },
       {
         "emoji": "⌨️",
-        "name": "Mac Terminal",
+        "name": "iTerm 2",
         "description": "",
-        "link": ""
+        "link": "https://www.iterm2.com/"
       },
       {
         "emoji": "🕹",
@@ -122,36 +116,6 @@
         "name": "Firefox Developer Edition",
         "description": "",
         "link": ""
-      },
-      {
-        "emoji": "🐅",
-        "name": "Safari",
-        "description": "",
-        "link": ""
-      }
-    ]
-  },
-  {
-    "title": "Websites",
-    "description": "",
-    "items": [
-      {
-        "emoji": "💻",
-        "name": "Dev.to",
-        "description": "My top favourite website. ❤️",
-        "link": "http://dev.to"
-      },
-      {
-        "emoji": "😂",
-        "name": "9GAG",
-        "description": "Go Fun Yourself!",
-        "link": "http://9gag.com"
-      },
-      {
-        "emoji": "🐦",
-        "name": "Twitter",
-        "description": "",
-        "link": "http://twitter.com/ctrleffive"
       }
     ]
   },
@@ -166,12 +130,6 @@
         "link": "https://www.figma.com"
       },
       {
-        "emoji": "✏️",
-        "name": "Balsamiq",
-        "description": "For sketching user interfaces",
-        "link": "https://balsamiq.com"
-      },
-      {
         "emoji": "💡",
         "name": "Lightroom",
         "description": "",
@@ -182,47 +140,11 @@
         "name": "Photoshop",
         "description": "",
         "link": ""
-      }
-    ]
-  },
-  {
-    "title": "Mobile Apps",
-    "description": "",
-    "items": [
-      {
-        "emoji": "🎵",
-        "name": "Spotify",
-        "description": "I cannot live without music. ❤️",
-        "link": "https://open.spotify.com/playlist/5rDrcAXAde9kIqzlCxXARs?si=O9reA5wkQUG_cqFCOnZ0Mg"
       },
       {
-        "emoji": "🎤",
-        "name": "Spotify (Podcast)",
-        "description": "My favourite podcast is StarTalk hosted by Neil Degrasse Tyson.",
-        "link": "https://open.spotify.com/show/1mNsuXfG95Lf76YQeVMuo1?si=C50rUXZfSROHE7WtDjAgGw"
-      },
-      {
-        "emoji": "🌈",
-        "name": "Google Photos",
-        "description": "I have a shared album in the google photos account with all my experiments in photography and colour grading. Have a look 😊",
-        "link": "https://photos.app.goo.gl/UXnnwtuKt1BGHvqg7"
-      },
-      {
-        "emoji": "✔",
-        "name": "Quire",
-        "description": "For task & project management.",
-        "link": "https://quire.io"
-      },
-      {
-        "emoji": "🔭",
-        "name": "Sky Guide",
-        "description": "An awesome iOS application with rich star catalogue.",
-        "link": "https://www.fifthstarlabs.com"
-      },
-      {
-        "emoji": "📱",
-        "name": "Other Applications",
-        "description": "Reddit, Instagram, 9GAG, YouTube, Telegram, Snapseed, Unsplash, VLC, etc..",
+        "emoji": "🎥",
+        "name": "DaVinci Resolve",
+        "description": "To edit my videos",
         "link": ""
       }
     ]
@@ -232,14 +154,26 @@
     "description": "",
     "items": [
       {
-        "emoji": "🎧",
-        "name": "Music",
+        "emoji": "🎮",
+        "name": "Gaming",
         "description": "",
         "link": ""
       },
       {
-        "emoji": "☕️",
-        "name": "Coffee",
+        "emoji": "📸",
+        "name": "Photography",
+        "description": "",
+        "link": ""
+      },
+      {
+        "emoji": "🍼",
+        "name": "Coca-Cola",
+        "description": "",
+        "link": "https://www.coca-cola.com/"
+      },
+      {
+        "emoji": "🏄‍♀️",
+        "name": "Action Sports",
         "description": "",
         "link": ""
       },

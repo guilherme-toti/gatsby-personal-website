@@ -36,6 +36,7 @@ export default class WorkThumbnail extends Component {
             }).node
             data.thumbnail = thumbnail
           }
+
           return (
             <div
               className="col-xl-4 col-md-6"
@@ -56,6 +57,7 @@ export default class WorkThumbnail extends Component {
                   width: 100%;
                   border-radius: 5px;
                   box-shadow: rgba(0, 0, 0, 0.05) 0 1px 2px;
+                  filter: grayscale(100%);
                   &:before {
                     content: '';
                     position: absolute;
@@ -73,6 +75,7 @@ export default class WorkThumbnail extends Component {
                     }
                   }
                   &:hover {
+                    filter: grayscale(0);
                     &:before {
                       opacity: 0.95;
                     }
@@ -83,6 +86,7 @@ export default class WorkThumbnail extends Component {
                   }
                   .gatsby-image-wrapper {
                     width: 100% !important;
+                    cursor: pointer;
                   }
                 `}>
                 <Img
@@ -122,6 +126,7 @@ export default class WorkThumbnail extends Component {
                   <div>
                     {data.tags.map((tag) => (
                       <span
+                        key={tag}
                         css={css`
                           margin-right: 1.5rem;
                         `}>

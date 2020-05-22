@@ -34,7 +34,7 @@ export default class BlogPage extends Component {
             <Wrap
               lightsOn
               pageBg={<PageBg />}
-              title="Blog - Chandu J S"
+              title="Blog"
               description="I write development tips & articles often.">
               <div className="content-wrap">
                 <div className="h1 font-weight-bold mb-3">
@@ -63,6 +63,7 @@ export default class BlogPage extends Component {
                   `}>
                   {articles.map((item) => (
                     <Link
+                      key={item.slug}
                       to={`/blog/${item.slug}`}
                       css={css`
                         padding: 2rem;
@@ -92,6 +93,7 @@ export default class BlogPage extends Component {
                       <div className="item-tags text-lowercase mt-2">
                         {item.tags.map((tag) => (
                           <span
+                            key={`${item.title}-${tag}`}
                             css={css`
                               display: inline-block;
                             `}

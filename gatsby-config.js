@@ -5,15 +5,13 @@ const skills = require('./data/skills.json')
 const social = require('./data/social.json')
 const person = require('./data/person.json')
 const experience = require('./data/experience.json')
-const education = require('./data/education.json')
 
 module.exports = {
   pathPrefix: '/',
   siteMetadata: {
-    title: `💻 ${person.name.first} ${person.name.last} - ${person.position}`,
+    title: `${person.name.first} ${person.name.last} - ${person.position}`,
     siteUrl: `https://${person.website}`,
     experience,
-    education,
     person,
     skills,
     social,
@@ -24,8 +22,8 @@ module.exports = {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         head: true,
-        trackingId: 'UA-151971254-1',
-        optimizeId: 'OPT-NVB8G6S',
+        trackingId: 'UA-39972528-7',
+        optimizeId: 'OPT-NNPWB46',
       },
     },
     {
@@ -55,7 +53,7 @@ module.exports = {
     {
       resolve: `gatsby-source-dev`,
       options: {
-        username: 'ctrleffive',
+        username: 'guilhermetoti',
       },
     },
     'gatsby-plugin-purgecss',
