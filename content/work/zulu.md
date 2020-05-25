@@ -1,5 +1,5 @@
 ---
-sort: 2
+sort: 3
 title: Zulu Desktop
 subTitle: Zulu UC is desktop and mobile integration for businesses using PBXact and FreePBX phone systems
 thumbnail: content/uploads/zulu.png

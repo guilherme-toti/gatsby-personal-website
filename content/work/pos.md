@@ -1,5 +1,5 @@
 ---
-sort: 4
+sort: 5
 title: POSPulse Dashboard
 subTitle: POSpulse is the leading crowd-based shopper insights intelligence company in Europe
 thumbnail: content/uploads/pospulse.png
