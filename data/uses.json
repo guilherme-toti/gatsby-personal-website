@@ -41,19 +41,19 @@
 		"items": [
 			{
 				"emoji": "💻",
-				"name": "Macbook Pro 15\"",
+				"name": "Macbook Pro 13\" M1",
 				"description": "I've tried windows & linux for professional use, but I always back to Mac. But I love Linux <3",
 				"link": ""
 			},
 			{
 				"emoji": "📷",
-				"name": "Canon 5D Mark IV",
+				"name": "Sony A7 III",
 				"description": "",
 				"link": ""
 			},
 			{
 				"emoji": "📱",
-				"name": "iPhone 11 Pro Max",
+				"name": "iPhone 12 Pro Max",
 				"description": "",
 				"link": ""
 			},
@@ -83,9 +83,9 @@
 			},
 			{
 				"emoji": "⌨️",
-				"name": "iTerm 2",
+				"name": "Hyper",
 				"description": "",
-				"link": "https://www.iterm2.com/"
+				"link": "https://hyper.is"
 			},
 			{
 				"emoji": "🕹",
@@ -106,17 +106,23 @@
 		"description": "",
 		"items": [
 			{
-				"emoji": "🐸",
-				"name": "Google Chrome",
+				"emoji": "🪙",
+				"name": "Vivaldi",
 				"description": "",
 				"link": ""
 			},
 			{
-				"emoji": "🔥",
+        "emoji": "🔥",
 				"name": "Firefox Developer Edition",
 				"description": "",
 				"link": ""
-			}
+			},
+      {
+        "emoji": "🐸",
+        "name": "Google Chrome",
+        "description": "",
+        "link": ""
+      }
 		]
 	},
 	{
@@ -143,7 +149,7 @@
 			},
 			{
 				"emoji": "🎥",
-				"name": "DaVinci Resolve",
+				"name": "Final Cut Pro X",
 				"description": "To edit my videos",
 				"link": ""
 			}
